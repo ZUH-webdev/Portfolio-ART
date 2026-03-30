@@ -21,7 +21,7 @@ const projects = [
 
 export default function FeaturedWork() {
   return (
-    <section className="glow-section bg-[#020617] px-6 py-28 relative overflow-hidden">
+    <section id="work" className="glow-section bg-[#020617] px-6 py-28 relative overflow-hidden">
       {/* Subtle radial glow background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(59,130,246,0.08),transparent_50%)] pointer-events-none" />
       

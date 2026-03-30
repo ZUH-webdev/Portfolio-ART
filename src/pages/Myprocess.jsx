@@ -23,7 +23,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section className="glow-section bg-[#020617] px-6 py-28 relative overflow-hidden" data-glow>
+    <section id="process" className="glow-section bg-[#020617] px-6 py-28 relative overflow-hidden" data-glow>
       {/* Subtle radial glow background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(59,130,246,0.08),transparent_50%)] pointer-events-none" />
       

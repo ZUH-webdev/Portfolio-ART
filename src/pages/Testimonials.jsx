@@ -23,7 +23,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="glow-section bg-linear-to-b from-[#0B1220] to-[#0A0F1C] py-20 px-6 relative overflow-hidden">
+    <section id="testimonials" className="glow-section bg-linear-to-b from-[#0B1220] to-[#0A0F1C] py-20 px-6 relative overflow-hidden">
       {/* Subtle radial glow background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(59,130,246,0.08),transparent_50%)] pointer-events-none" />
       
