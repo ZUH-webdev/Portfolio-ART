@@ -1,1 +1,149 @@
 @import "tailwindcss";
+
+/* ============= CUSTOM ANIMATIONS ============= */
+
+/* Smooth Fade-In on Scroll */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Staggered Card Animation */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Soft Glow Pulse */
+@keyframes softGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(59, 130, 246, 0.2);
+  }
+}
+
+/* Cards Stagger Animation */
+.card-stagger:nth-child(1) {
+  animation: fadeInScale 0.6s ease-out 0.1s both;
+}
+.card-stagger:nth-child(2) {
+  animation: fadeInScale 0.6s ease-out 0.2s both;
+}
+.card-stagger:nth-child(3) {
+  animation: fadeInScale 0.6s ease-out 0.3s both;
+}
+.card-stagger:nth-child(4) {
+  animation: fadeInScale 0.6s ease-out 0.4s both;
+}
+
+/* Global Smooth Transitions */
+* {
+  @apply transition-all duration-300 ease-out;
+}
+
+/* Premium Icon Styles for Footer */
+.icon {
+  @apply w-8 h-8 flex items-center justify-center rounded-lg text-white/60 border border-white/10 cursor-pointer;
+  background: rgba(255, 255, 255, 0.02);
+  transition: all 0.3s ease-out;
+}
+
+.icon:hover {
+  @apply text-white bg-white/10 border-white/20 shadow-glow-sm;
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+}
+
+.icon-sm {
+  font-size: 1.25rem;
+}
+
+/* Pixel-Perfect Footer Icon Buttons */
+.footer-icon-btn {
+  @apply flex items-center justify-center w-10 h-10 rounded-lg border border-white/10 text-white/50 transition-all duration-300;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.footer-icon-btn svg {
+  @apply w-5 h-5;
+}
+
+.footer-icon-btn:hover {
+  @apply text-white/90 border-white/20 bg-white/8;
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.15);
+  transform: scale(1.05);
+}
+
+.footer-icon-btn:active {
+  @apply scale-95;
+}
+
+/* Footer Link Styles */
+.footer-title {
+  @apply text-white font-semibold text-xs tracking-widest mb-4;
+}
+
+.footer-list {
+  @apply space-y-3 text-white/60 text-sm;
+}
+
+.footer-list li {
+  @apply cursor-pointer transition-colors duration-300;
+}
+
+.footer-list li:hover {
+  @apply text-white;
+  padding-left: 4px;
+}
+
+/* Glow Section Background */
+.glow-section {
+  position: relative;
+}
+
+.glow-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 1px;
+  background: radial-gradient(
+    circle at center,
+    rgba(59, 130, 246, 0.2),
+    transparent 70%
+  );
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+/* Hero Text Animation */
+.text-shimmer {
+  background: linear-gradient(
+    90deg,
+    #ffffff 25%,
+    #ffffff80 50%,
+    #ffffff 75%
+  );
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+  to {
+    background-position: 200% center;
+  }
+}
