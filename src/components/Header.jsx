@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const navLinks = ['ABOUT', 'WORK', 'PROCESS', 'TESTIMONIALS'];
+    const navLinks = ['ABOUT', 'WORK', 'PROCESS', 'TESTIMONIALS', 'CONTACT'];
 
     useEffect(() => {
         const handleScroll = () => {
@@ -32,7 +32,7 @@ const Header = () => {
             <div className="max-w-[1440px] mx-auto px-6 md:px-16 py-3 flex items-center justify-between relative z-[120]">
 
                 {/* Logo */}
-                <div className="flex items-baseline cursor-pointer">
+                <div className="flex items-baseline cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} >
                     <span className="text-2xl font-[900] tracking-tighter text-white">RAZA</span>
                     <span className="text-2xl font-[900] text-white ml-px">.</span>
                 </div>

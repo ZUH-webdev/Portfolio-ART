@@ -34,19 +34,27 @@ export default function CTASection() {
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
 
               {/* WhatsApp Button */}
-              <button className="group relative flex items-center gap-2 px-8 py-4 rounded-full text-white text-sm font-medium bg-linear-to-r from-indigo-500 to-purple-600 hover:shadow-glow-purple-lg transition-all duration-300 hover:scale-105 active:scale-95 overflow-hidden">
+              <a 
+                href="https://wa.me/923197570090" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group relative flex items-center gap-2 px-8 py-4 rounded-full text-white text-sm font-medium bg-linear-to-r from-indigo-500 to-purple-600 hover:shadow-glow-purple-lg transition-all duration-300 hover:scale-105 active:scale-95 overflow-hidden"
+              >
                 {/* Glow layer */}
                 <div className="absolute inset-0 bg-linear-to-r from-indigo-400 to-purple-500 opacity-0 group-hover:opacity-40 transition-opacity duration-300 blur-xl" />
                 
                 <span className="relative text-lg">💬</span>
                 <span className="relative">Contact via WhatsApp</span>
-              </button>
+              </a>
 
               {/* Email Button */}
-              <button className="group relative flex items-center gap-2 px-8 py-4 rounded-full text-white/80 text-sm font-medium border border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/20 hover:text-white transition-all duration-300 hover:shadow-glow-sm">
+              <a 
+                href="mailto:alirazzatariq@gmail.com"
+                className="group relative flex items-center gap-2 px-8 py-4 rounded-full text-white/80 text-sm font-medium border border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/20 hover:text-white transition-all duration-300 hover:shadow-glow-sm"
+              >
                 <span className="relative">Send an Email</span>
                 <span className="relative text-lg group-hover:translate-x-2 transition-transform duration-300">→</span>
-              </button>
+              </a>
 
             </div>
           </div>

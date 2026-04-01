@@ -1,6 +1,7 @@
 import Myprocess from "./pages/Myprocess";
 import Testimonials from "./pages/Testimonials";
 import Cta from "./pages/Cta";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import FeaturedWork from "./pages/Featuredwork";
 import Header from './components/Header'
@@ -27,6 +28,7 @@ function App() {
         <Myprocess />
         <Testimonials />
         <Cta />
+        <Contact />
         <Footer />
       </main>
     </div>

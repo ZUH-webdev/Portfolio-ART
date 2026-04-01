@@ -62,7 +62,7 @@ export default function Footer() {
 
               {/* Email */}
               <a 
-                href="#" 
+                href="mailto:alirazzatariq@gmail.com" 
                 className="footer-icon-btn"
                 aria-label="Email"
               >
@@ -79,27 +79,27 @@ export default function Footer() {
             <h3 className="text-xs font-semibold text-white/70 tracking-widest uppercase">Navigation</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors duration-300 inline-block">
+                <a href="#about" className="text-sm text-white/60 hover:text-white transition-colors duration-300 inline-block">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors duration-300 inline-block">
+                <a href="#work" className="text-sm text-white/60 hover:text-white transition-colors duration-300 inline-block">
                   Featured Work
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors duration-300 inline-block">
+                <a href="#process" className="text-sm text-white/60 hover:text-white transition-colors duration-300 inline-block">
                   Process
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors duration-300 inline-block">
+                <a href="#testimonials" className="text-sm text-white/60 hover:text-white transition-colors duration-300 inline-block">
                   Testimonials
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors duration-300 inline-block">
+                <a href="#contact" className="text-sm text-white/60 hover:text-white transition-colors duration-300 inline-block">
                   Contact
                 </a>
               </li>
@@ -157,7 +157,7 @@ export default function Footer() {
                 <span className="flex-shrink-0 text-base leading-6 group-hover:scale-110 transition-transform duration-300 origin-left">
                   📞
                 </span>
-                <a href="#" className="underline group-hover:no-underline transition-all duration-300">
+                <a href="https://wa.me/923197570090" target="_blank" rel="noopener noreferrer" className="underline group-hover:no-underline transition-all duration-300">
                   Chat via WhatsApp
                 </a>
               </li>

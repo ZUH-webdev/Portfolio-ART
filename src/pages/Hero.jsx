@@ -25,15 +25,21 @@ const Hero = () => {
 
         <div className="flex flex-col sm:flex-row items-center gap-4 md:gap-5 w-full sm:w-auto">
           
-          <button className="w-full sm:w-auto flex items-center justify-center gap-3 px-8 md:px-10 py-4 md:py-4.5 bg-[#2D1B69] text-white rounded-full font-bold text-[14px] shadow-[0_15px_40px_-10px_rgba(45,27,105,0.8)] border-t border-white/20 cursor-pointer">
+          <a 
+            href="#contact"
+            className="w-full sm:w-auto flex items-center justify-center gap-3 px-8 md:px-10 py-4 md:py-4.5 bg-[#2D1B69] text-white rounded-full font-bold text-[14px] shadow-[0_15px_40px_-10px_rgba(45,27,105,0.8)] border-t border-white/20 cursor-pointer"
+          >
             <MessageCircleIcon size={16}/>
             Discuss Your Project
-          </button>
+          </a>
 
-          <button className="w-full sm:w-auto flex items-center justify-center gap-3 px-8 md:px-10 py-4 md:py-4.5 bg-white/[0.03] text-white rounded-full font-bold text-[14px] border border-white/5 backdrop-blur-md hover:bg-white/[0.08] transition-all shadow-xl cursor-pointer">
+          <a 
+            href="#work"
+            className="w-full sm:w-auto flex items-center justify-center gap-3 px-8 md:px-10 py-4 md:py-4.5 bg-white/[0.03] text-white rounded-full font-bold text-[14px] border border-white/5 backdrop-blur-md hover:bg-white/[0.08] transition-all shadow-xl cursor-pointer"
+          >
             View Portfolio
             <ArrowRight size={16} />
-          </button>
+          </a>
         </div>
 
       </div>
