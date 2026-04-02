@@ -40,7 +40,7 @@ export default function Contact() {
                 </div>
 
                 <a 
-                  href="https://wa.me/923071511042" 
+                  href="https://wa.me/923147091042" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-6 group cursor-pointer"
@@ -52,7 +52,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-[10px] font-black tracking-widest text-gray-500 uppercase mb-1">WhatsApp</p>
-                    <p className="text-white font-bold text-lg">+92 307 1511042</p>
+                    <p className="text-white font-bold text-lg">+92 314 7091042</p>
                   </div>
                 </a>
 

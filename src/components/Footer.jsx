@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1 - Branding */}
           <div className="space-y-6">
             <h2 className="text-lg font-semibold text-white tracking-tight hover:text-white/70 transition-colors duration-300 cursor-default">
-              RAZA.
+              ALI.
             </h2>
             
             <p className="text-sm text-white/50 leading-relaxed max-w-xs">
@@ -171,7 +171,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 md:gap-4">
           <p className="text-xs text-white/40 tracking-wider">
-            © 2026 ALI RAZA. ALL RIGHTS RESERVED.
+            © 2026 ALI. ALL RIGHTS RESERVED.
           </p>
 
           <div className="flex gap-8">

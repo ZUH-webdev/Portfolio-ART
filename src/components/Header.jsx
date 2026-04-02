@@ -33,7 +33,7 @@ const Header = () => {
 
                 {/* Logo */}
                 <div className="flex items-baseline cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} >
-                    <span className="text-2xl font-[900] tracking-tighter text-white">RAZA</span>
+                    <span className="text-2xl font-[900] tracking-tighter text-white">ALI RAZA</span>
                     <span className="text-2xl font-[900] text-white ml-px">.</span>
                 </div>
 
